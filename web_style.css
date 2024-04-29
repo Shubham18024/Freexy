@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+#banner {
+    background: url(freexy_image/bg.jpg);
+    background-size: 150px;
+    background-position: center;
+    height: 60vh;
+
+}
+
+.logo {
+    width: 250px;
+    position: absolute;
+    top: 0%;
+    left: 2%;
+}
+
+.banner-text {
+    text-align: center;
+    color: rgb(92, 91, 255);
+    padding-top: 180px;
+}
+
+.banner-text h1 {
+    font-size: 80px;
+    font-family: "Kaushan Script", cursive;
+
+}
+
+.banner-text p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+#side_nav {
+    width: 180px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #0e6f98;
+    z-index: 2;
+    transition: 0.2s;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+#menu_btn {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+#menu_btn img {
+    width: 30px;
+    margin-top: 15px;
+
+
+}
+
+#banner_2 {
+    background: url(freexy_image/bg_2.jpg);
+    background-size: 500px;
+    background-position: center;
+    height: 300vh;
+
+}
+
+.banner-text-2 {
+    text-align: left;
+    color: rgb(92, 91, 255);
+    padding-top: 20px
+}
+
+.banner-text-2 h2 {
+    font-size: 60px;
+    font-family: "Kaushan Script", cursive;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.cool-button {
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #ab21b8;
+    /* Blue color */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cool-button:hover {
+    background-color: rgb(33, 33, 33);
+    /* Darker blue color on hover */
+}
+
+#line_1 {
+    border: 5px dotted  rgb(33, 33, 33);
+    border-style: none none dotted; 
+    color: #7834e7; 
+    background-color: #a236f4;
+    margin-top: 450px;
+}
+
+#line_2 {
+    border: 5px dotted  rgb(33, 33, 33);
+    border-style: none none dotted; 
+    color: #7834e7; 
+    background-color: #a236f4;
+    position:relative;
+    top: -450px; /* Adjust the value as needed to shift the line upward */
+
+}
+
+.form {
+    color: rgb(92, 91, 255); 
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+  }
+  
+  .form_text h3 {
+    font-size: 40px;
+    font-family: "Kaushan Script", cursive;
+    color: rgb(92, 91, 255);    
+  }
+  
+  .form_text p {
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(92, 91, 255);  
+    padding-bottom: 20px;
+  }
+  
+  label {
+    padding-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(92, 91, 255);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(33,33,33);
+  }
+  
+
+
+/* Style for the Meet the Creator section */
+
+.creator-section {
+    background-color: #150537;
+    padding: 60px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.creator-info {
+    text-align: center;
+}
+
+.creator-info h2 {
+    color: #ecf1f2;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.creator-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creator-details img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.creator-bio h3 {
+    color: #f9fdff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.creator-bio p {
+    color: #74adf2;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+footer {
+    background-color: #391643;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-logo img {
+    width: 150px;
+    height: auto;
+}
+
+.copyright p {
+    font-size: 14px;
+}
