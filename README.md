@@ -1,6 +1,6 @@
 # Freexy
 
-![Freexy Logo](freexy_image/logo.png)
+<img src="freexy_image/logo.png" alt="Freexy Logo" width="300"/>
 
 ## Website
 
