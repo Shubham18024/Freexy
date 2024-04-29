@@ -2,6 +2,12 @@
 
 ![Freexy Logo](freexy_image/logo.png)
 
+## Website
+
+[*Visit Freexy Website*](https://shubham18024.github.io/Freexy/)
+
+*Please note that Freexy is optimized for desktop and is best viewed in the Chrome browser.*
+
 ## Mission Statement
 
 At Freexy, we are dedicated to simplifying access to free alternatives to paid software and websites. Our mission is to save users valuable time and effort by providing a centralized platform where they can discover a comprehensive collection of free resources, empowering them to fulfill their needs without the burden of costs.
